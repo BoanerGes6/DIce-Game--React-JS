@@ -1,0 +1,86 @@
+.container {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.diceContainer {
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+.initial_Icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+}
+.initial_Icon i:first-child {
+    position: relative;
+    left: 10px;
+    transform: rotate(15deg);
+}
+.initial_Icon i:last-child {
+    position: relative;
+    top: 26px;
+    transform: rotate(-30deg);
+}
+
+.dice {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.turn {
+    height: 5%;
+    padding: 20px;
+}
+.turn label{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 50px;
+}
+.roll_dice {
+    margin: 10px;
+}
+.roll_dice button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: white;
+    font-size: 16px;
+}
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 18px;
+}
+.playAgainOrRestart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 10px;
+}
+.playAgainOrRestart button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.playAgainOrRestart button:first-child {
+    border: 2px solid green;
+    background-color: white;
+}
+.playAgainOrRestart button:last-child {
+    border: 2px solid red;
+    background-color: white;
+}
